@@ -33,7 +33,7 @@ async fn submit_form(Form(form_data): Form<FormData>) -> Html<&'static str> {
         params![form_data.name, form_data.email],
     )
     .unwrap();
-    Html("Thank you for your submission!")
+    Html(include_str!("submit.html"))
 }
 
 #[tokio::main]
