@@ -1,0 +1,10 @@
+[package]
+name = "zyxenthralithor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = "1.3.1"
+rusqlite = "0.31.0"
+serde = "1.0.203"
+tokio = "1.38.0"
